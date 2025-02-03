@@ -1,0 +1,47 @@
+.SeminarCard {
+    max-width: 400px;
+    background-color: rgb(53, 103, 252);
+    border-radius: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.SeminarCard__img {
+    min-height: 100px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid rgb(53, 103, 252);
+    color: #111111;
+}
+
+.SeminarCard__h3, .SeminarCard__p, .SeminarCard__data, .SeminarCard__btn {
+    padding: 15px;
+}
+
+.SeminarCard__data {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.SeminarCard__btn {
+    color: #ffffff;
+    margin: 15px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: .1s;
+    padding: 5px;
+    background-color: red;
+}
+
+.SeminarCard__btn:hover {
+    transform: scale(1.1);
+}

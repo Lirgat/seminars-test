@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.App__h1 {
+  color: blue;
+}
